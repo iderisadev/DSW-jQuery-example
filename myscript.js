@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$("p").addClass("bright");
 		$("img").addClass("border");
 	});
-	$("p").click(function(){
+	$("#p").click(function(){
   	  $("p").hide();
 	});
 });
